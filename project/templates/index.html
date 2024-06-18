@@ -1,0 +1,6 @@
+{% extends "base.html" %} {% block content %}
+<h1 class="title">Вас приверствует Очень Важная Штука</h1>
+<h2 class="subtitle">Искренне надеюсь, что она вам понравится, иначе она может расстроиться</h2>
+{% if current_user.is_authenticated %}
+<h3 class="forAuth">Рада, что вы зарегистрировались и вошли в аккаунт</h3>
+{% endif %} {% endblock %}

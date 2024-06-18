@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+
+* {
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #ededed;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-head {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-menu {
+  width: 960px;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.navbar-item {
+  text-decoration-line: none;
+  font-size: 18px;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-end {
+  display: flex;
+}
+
+body {
+  background-color: #59afff;
+}
+
+.button.is-info {
+  background-color: #055cad;
+}
+
+.hero-body {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+}
+
+.container.has-text-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 
+.index {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.subtitle {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.forAuth {
+  font-size: 18px;
+}
+
+.title {
+  font-size: 26px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.column {
+  width: 300px;
+}
+
+.input {
+  width: 300px;
+  height: 25px;
+  font-size: 18px;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  justify-content: space-between;
+}
+
+.button {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.notification {
+  padding: 10px;
+  background-color: #055cad;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-style: solid;
+  border-color: black;
+}
